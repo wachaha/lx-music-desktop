@@ -38,7 +38,7 @@
                   <use xlink:href="#icon-play-outline" />
                 </svg>
               </div>
-              <div v-else class="num">{{ index + 1 }}</div>
+              <div v-else class="num">{{ list.length-index }}</div>
             </transition>
           </div>
           <div class="list-item-cell auto name" :aria-label="item.name">
